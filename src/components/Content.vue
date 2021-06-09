@@ -1,12 +1,16 @@
 <template>
   <main class="contenuto">
-
+      <Albums />
   </main>
 </template>
 
 <script>
+import Albums from './Albums.vue'
 export default {
-    name: "Content"
+    name: "Content",
+    components: {
+        Albums
+    }
 }
 </script>
 
