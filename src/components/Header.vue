@@ -12,7 +12,7 @@ export default {
 
 <style>
     .barra{
-        background-color: #1E2D3B;
+        background-color: #2E3A46;
         height: 65px;
     }
 
