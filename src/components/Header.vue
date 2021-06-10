@@ -1,6 +1,13 @@
 <template>
   <section class="barra">
       <img class="logo_header" src="../assets/spotify.png" alt="Logo spotify">
+      <select name="" id="" v-model="selected" @change="selectedValue">
+          <option value="">Seleziona il genere</option>
+          <option value="pop">Pop</option>
+          <option value="rock">Rock</option>
+          <option value="jazz">Jazz</option>
+          <option value="metal">Metal</option>
+      </select>
   </section>
 </template>
 

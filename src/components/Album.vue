@@ -17,7 +17,15 @@ export default {
 </script>
 
 <style>
+  .album{ 
+    display: inline-block;
+  }
+
   .immagine_copertina{
-    width: 50px;
+    width: 90px;
+    height: 100%;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
   }
 </style>
