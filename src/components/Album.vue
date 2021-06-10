@@ -1,6 +1,6 @@
 <template>
-  <div class="Album">
-      <div>
+  <div class="album">
+      <div class="schermo">
         <img class="immagine_copertina" :src="item.poster" :alt="item.title">
         <h2>{{item.title}}</h2>
         <h3>{{item.author}}</h3>
@@ -18,14 +18,30 @@ export default {
 
 <style>
   .album{ 
-    display: inline-block;
-  }
+    /* display: flex;
+    justify-content: center; */
+    float: left;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+    }
 
   .immagine_copertina{
     width: 90px;
-    height: 100%;
-    flex-direction: row;
-    display: flex;
+    height: auto;
     flex-wrap: wrap;
+  }
+
+  .schermo{
+    float: left;
+  }
+
+  .schermo h2{
+    color: white;
+  }
+
+  .schermo h3, h4{
+    color: lightslategrey;
   }
 </style>
